@@ -2,6 +2,7 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://rebeacca.github.io/clicky-game/",
   "dependencies": {
     "@material-ui/core": "^4.5.0",
     "gh-pages": "^2.1.1",
@@ -11,7 +12,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy": "yarn run build",
+    "predeploy": "npm run build",
    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -31,6 +32,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://rebeacca.github.io/clicky-game/."
+  }
 }
