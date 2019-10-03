@@ -9,7 +9,7 @@ const NavBar = props => {
         <AppBar position="static" {...props}>
             <Toolbar>
                 <Typography variant="headline" color="inherit" align="center">
-                Clicky Game
+                Clicky Game: Click on an image to earn points, but don't click on any more than once! 
                 </Typography>
             </Toolbar>
         </AppBar>
